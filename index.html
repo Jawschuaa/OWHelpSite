@@ -2,12 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
     <title>Overwatch Tank Help</title>
     <link rel="stylesheet" href="styles.css" type="text/css" />
     <script src="script.js"></script>
   </head>
   <body>
+    <div class="page-container"></div>
     <nav class="navbar">
       <label class="logo">Tank Tips</label>
       <ul class="navbar-links" id="menuItems">
@@ -15,6 +19,7 @@
         <li><a href="#jq">Junker Queen</a></li>
         <li><a href="#Winston">Winston</a></li>
         <li><a href="#hog">Roadhog</a></li>
+        <li><a href="#ram">Rammatra</a></li>
         <li><a href="#sig">Sigma</a></li>
       </ul>
       <div class="navbar-toggle" onclick="toggleMenu()">
@@ -23,9 +28,11 @@
         <div class="bar"></div>
       </div>
     </nav>
-
+    <video autoplay loop muted plays-inline class="home-video">
+      <source src="assets/home.mp4" />
+    </video>
     <section id="Home">
-      <h1 class="heading">Home Section</h1>
+      <h1 class="heading">Overwatch Tank Tips</h1>
       <p class="p1">
         This is a website made as a project by a Grandmaster/ Top 500 Overwatch
         tank main dedicated to helping you get better and rank up in competitive
@@ -34,20 +41,24 @@
       </p>
     </section>
 
-    <section id="#jq">
+    <section id="jq">
       <h1>Junker Queen</h1>
     </section>
 
-    <section id="#Winston">
+    <section id="Winston">
       <h1>Winston</h1>
     </section>
 
-    <section id="#hog">
+    <section id="hog">
       <h1>Roadhog</h1>
     </section>
 
-    <section id="#sig">
+    <section id="sig">
       <h1>Sigma</h1>
+    </section>
+
+    <section id="ram">
+      <h1>Rammatra</h1>
     </section>
   </body>
 </html>
