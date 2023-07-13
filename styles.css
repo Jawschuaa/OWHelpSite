@@ -31,6 +31,10 @@ body {
   z-index: 2;
   color: #fff;
 }
+.header{
+  text-align: center;
+  font-size: 40px;
+}
 
 .navbar {
   background-color: #dcdcdc;
