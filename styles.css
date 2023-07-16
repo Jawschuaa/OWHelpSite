@@ -173,16 +173,17 @@ body {
   display: block;
 }
 
-.image-container .image-text {
+.image-container .image-text-r {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 80%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
+  font-weight: bold;
 }
-.image-text-header {
+.image-text-header-r {
   position: absolute;
   top: 30%;
   left: 80%;
@@ -190,4 +191,43 @@ body {
   color: white;
   font-size: 60px;
   text-align: center;
+}
+.image-text-header-l {
+  position: absolute;
+  top: 30%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+.image-text-l {
+  position: absolute;
+  top: 53%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 800px;
+  font-weight: bold;
+}
+.luyg-pic {
+  position: absolute;
+  width: 800px;
+  left: 1030px;
+  max-width: 100%;
+  margin: 0;
+  top: 1275px;
+  z-index: 2;
+}
+.bronze-gm {
+  position: absolute;
+  width: 800px;
+  left: 1100px;
+  max-width: 100%;
+  margin: 0;
+  top: 1100px;
+  z-index: 1;
 }
