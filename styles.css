@@ -154,12 +154,15 @@ body {
   position: relative;
   z-index: -1;
   max-width: 100%;
+  margin-top: -20px;
 }
 .hero1-background {
   position: relative;
   z-index: -1;
   width: 1920px;
   max-width: 100%;
+  margin-top: -5px;
+  margin-bottom: -5px;
 }
 .image-container {
   position: relative;
