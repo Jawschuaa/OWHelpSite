@@ -231,3 +231,17 @@ body {
   top: 1100px;
   z-index: 1;
 }
+.video-r {
+  position: absolute;
+  top: 580px;
+  left: 100px;
+  width: 800px;
+  height: 400px;
+}
+.video-l {
+  position: absolute;
+  top: 580px;
+  width: 800px;
+  height: 400px;
+  right: 100px;
+}
